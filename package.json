@@ -1,0 +1,28 @@
+{
+  "name": "cmcl-silver",
+  "version": "2.0.0",
+  "description": "The next generation of Convenient MCL with the support of cross platforms and modern designs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/test",
+    "build":"node scripts/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cmcl-dev/cmcl-silver.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "Launcher"
+  ],
+  "author": "Edwin Lau <liumingedwin@qq.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cmcl-dev/cmcl-silver/issues"
+  },
+  "homepage": "https://github.com/cmcl-dev/cmcl-silver#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.14.54"
+  }
+}

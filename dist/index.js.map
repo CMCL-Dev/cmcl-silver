@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.js"],
+  "sourcesContent": ["let core;\ntry{\n\tcore = require(\"packages/core\");\n}catch(e){\n\tconsole.info(\"Failed loading packages/core, use node_modules/core instead\");\n\tcore = require(\"core\");\n}\ncore.backend();\n"],
+  "mappings": "AAAA,IAAI,KACJ,GAAG,CACF,KAAO,QAAQ,eAAe,CAC/B,MAAC,CACA,QAAQ,KAAK,6DAA6D,EAC1E,KAAO,QAAQ,MAAM,CACtB,CACA,KAAK,QAAQ",
+  "names": []
+}
